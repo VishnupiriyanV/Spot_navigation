@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/enma/pudusu/ros2_ws/build/champ_gazebo/helper_publish_base_pose" "TARGETS" "helper_publish_base_pose" "RUNTIME_DESTINATION" "lib/champ_gazebo")

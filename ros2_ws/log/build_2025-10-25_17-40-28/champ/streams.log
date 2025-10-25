@@ -1,0 +1,76 @@
+[0.062s] Invoking command in '/home/enma/pudusu/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ
+[0.354s] -- The C compiler identification is GNU 11.4.0
+[0.574s] -- The CXX compiler identification is GNU 11.4.0
+[0.603s] -- Detecting C compiler ABI info
+[0.845s] -- Detecting C compiler ABI info - done
+[0.878s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.879s] -- Detecting C compile features
+[0.883s] -- Detecting C compile features - done
+[0.895s] -- Detecting CXX compiler ABI info
+[1.206s] -- Detecting CXX compiler ABI info - done
+[1.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.241s] -- Detecting CXX compile features
+[1.243s] -- Detecting CXX compile features - done
+[1.259s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.822s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.065s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.162s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.288s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.301s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.323s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.605s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.618s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.919s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.012s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.147s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.188s] -- Looking for pthread.h
+[3.372s] -- Looking for pthread.h - found
+[3.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.631s] -- Found Threads: TRUE  
+[4.098s] -- Configuring done
+[4.111s] -- Generating done
+[4.116s] -- Build files have been written to: /home/enma/pudusu/ros2_ws/build/champ
+[4.144s] Invoked command in '/home/enma/pudusu/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ
+[4.150s] Invoking command in '/home/enma/pudusu/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ -- -j12 -l12
+[4.255s] Invoked command in '/home/enma/pudusu/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ -- -j12 -l12
+[4.260s] Invoking command in '/home/enma/pudusu/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ
+[4.279s] -- Install configuration: ""
+[4.281s] -- Execute custom install script
+[4.283s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/LICENSE
+[4.303s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/README.md
+[4.328s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/bla/basic_linear_algebra.h
+[4.354s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/bla/memory_delegate.h
+[4.384s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/body_controller/body_controller.h
+[4.414s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/geometry/geometry.h
+[4.446s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/kinematics/kinematics.h
+[4.475s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/leg_controller/leg_controller.h
+[4.500s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/leg_controller/phase_generator.h
+[4.526s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/leg_controller/trajectory_planner.h
+[4.549s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/macros/macros.h
+[4.574s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/odometry/odometry.h
+[4.593s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/quadruped_base/quadruped_base.h
+[4.613s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/quadruped_base/quadruped_components.h
+[4.638s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/quadruped_base/quadruped_joint.h
+[4.666s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/quadruped_base/quadruped_leg.h
+[4.694s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/utils/urdf_loader.h
+[4.717s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/include//champ/utils/xmlrpc_helpers.h
+[4.739s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+[4.766s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+[4.793s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/environment/ament_prefix_path.sh
+[4.825s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/environment/ament_prefix_path.dsv
+[4.857s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/environment/path.sh
+[4.887s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/environment/path.dsv
+[4.913s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/local_setup.bash
+[4.939s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/local_setup.sh
+[4.965s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/local_setup.zsh
+[4.995s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/local_setup.dsv
+[5.015s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/package.dsv
+[5.041s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/ament_index/resource_index/packages/champ
+[5.072s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.100s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/cmake/champConfig.cmake
+[5.124s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/cmake/champConfig-version.cmake
+[5.151s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ/share/champ/package.xml
+[5.175s] Invoked command in '/home/enma/pudusu/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ

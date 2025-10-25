@@ -1,0 +1,162 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/enma/pudusu/ros2_ws/build/champ_gazebo
+[ 50%] [32mBuilding CXX object CMakeFiles/helper_publish_base_pose.dir/src/helper_publish_base_pose.cpp.o[0m
+[100%] [32m[1mLinking CXX executable helper_publish_base_pose[0m
+[100%] Built target helper_publish_base_pose
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/champ_gazebo.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/champ_gazebo/helper_publish_base_pose
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/champ_gazebo/move_legs
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/champ_gazebo/move_arm
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/champ_gazebo/spot_walk
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/champ_gazebo/republish_ground_truth
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/empty_room.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/ground_plane.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/industrial_plant.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/marsyard2020.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/moon.world
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/search_forest_world.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/search_office_world.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/subt_urban_circuit_02.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/worlds/void.world
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/materials/scripts/CMakeLists.txt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/materials/scripts/ground_container_office.material
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/materials/textures/CMakeLists.txt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/materials/textures/texture.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/meshes/ground_container_office.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/meshes/ground_container_office_safe.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/model.config
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_container_office/model.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/CMakeLists.txt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/materials/CMakeLists.txt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/materials/scripts/CMakeLists.txt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/materials/scripts/grass.material
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/materials/textures/CMakeLists.txt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/materials/textures/grass_dry.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/model.config
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/ground_grass_plane/model.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/meshes/terrain_compressed.mtl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/meshes/terrain_compressed.obj
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/meshes/textures/diffuse.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/meshes/textures/fp_rock_03_dif.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/meshes/textures/fp_rock_04_dif.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/meshes/textures/fp_rock_spec.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/model.config
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/marsyard2020_terrain/model.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/materials/heightmap/moon.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/materials/heightmap/moon.xcf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/materials/textures/ground.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/materials/textures/ground_1.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/materials/textures/ground_normal.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/model.config
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/moon_surface/model.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/body.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/body_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_left_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_left_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_left_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_left_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_left_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_left_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_right_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_right_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_right_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_right_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_right_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/front_right_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_left_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_left_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_left_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_left_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_left_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_left_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_right_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_right_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_right_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_right_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_right_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/rear_right_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/sensor_payload_link.STL
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/spot_mat.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/meshes/spot_payload.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/metadata.pbtxt
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/model.config
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/model.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/thumbnails/1.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/thumbnails/2.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/thumbnails/3.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/thumbnails/4.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/spot/thumbnails/5.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/eyebrow001-unmodified.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/eyebrow001.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/green_eye.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/jeans01_normals.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/jeans_basic_diffuse.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/male02_diffuse_black-unmodified.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/male02_diffuse_black.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/original/jeans_basic_diffuse.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/original/tshirt02_texture.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/teeth.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/tshirt02_normals.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/tshirt02_texture.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/materials/textures/young_lightskinned_male_diffuse.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/meshes/walking.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/model.config
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/model.sdf
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/thumbnails/1.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/thumbnails/2.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/thumbnails/3.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/thumbnails/4.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/models/walking_soldier/thumbnails/5.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/launch/launch_gz_world.launch.py
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/ament_index/resource_index/package_run_dependencies/champ_gazebo
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/ament_index/resource_index/parent_prefix_path/champ_gazebo
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/path.sh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/environment/path.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.bash
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.sh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.zsh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/local_setup.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/ament_index/resource_index/packages/champ_gazebo
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig.cmake
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig-version.cmake
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.xml

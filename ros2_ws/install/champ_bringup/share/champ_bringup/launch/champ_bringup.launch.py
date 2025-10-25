@@ -1,0 +1,1 @@
+/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup/launch/champ_bringup.launch.py

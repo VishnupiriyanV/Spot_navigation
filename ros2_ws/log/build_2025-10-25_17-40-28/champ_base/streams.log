@@ -1,0 +1,87 @@
+[0.030s] Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_base
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- The CXX compiler identification is GNU 11.4.0
+[0.355s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.599s] -- Detecting CXX compiler ABI info
+[0.813s] -- Detecting CXX compiler ABI info - done
+[0.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.850s] -- Detecting CXX compile features
+[0.852s] -- Detecting CXX compile features - done
+[0.863s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.679s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.832s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.845s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.881s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.088s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.096s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.351s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.439s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.581s] -- Looking for pthread.h
+[2.770s] -- Looking for pthread.h - found
+[2.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.982s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.986s] -- Found Threads: TRUE  
+[3.151s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[3.161s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.203s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.353s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[3.413s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.468s] -- Found champ_msgs: 0.0.0 (/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/cmake)
+[3.551s] -- Found champ: 0.1.0 (/home/enma/pudusu/ros2_ws/install/champ/share/champ/cmake)
+[3.559s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[3.596s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.898s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.997s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.065s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.074s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.074s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.368s] -- Configuring done
+[4.447s] -- Generating done
+[4.470s] -- Build files have been written to: /home/enma/pudusu/ros2_ws/build/champ_base
+[4.496s] Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_base
+[4.503s] Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_base -- -j12 -l12
+[4.689s] [ 16%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[4.689s] [ 33%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[4.692s] [ 50%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[46.632s] [ 66%] [32m[1mLinking CXX executable quadruped_controller[0m
+[49.347s] [ 66%] Built target quadruped_controller
+[56.607s] [ 83%] [32m[1mLinking CXX executable message_relay[0m
+[59.221s] [ 83%] Built target message_relay
+[63.539s] [100%] [32m[1mLinking CXX executable state_estimation[0m
+[66.646s] [100%] Built target state_estimation
+[66.683s] Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_base -- -j12 -l12
+[66.690s] Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_base
+[66.721s] -- Install configuration: ""
+[66.722s] -- Execute custom install script
+[66.724s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/lib/champ_base/quadruped_controller
+[66.752s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/lib/champ_base/message_relay
+[66.779s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/lib/champ_base/state_estimation
+[66.800s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/include//actuator.h
+[66.833s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/include//message_relay.hpp
+[66.870s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/include//quadruped_controller.hpp
+[66.902s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/include//state_estimation.hpp
+[66.926s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[66.951s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[66.977s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[67.005s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[67.028s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/environment/path.sh
+[67.050s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/environment/path.dsv
+[67.075s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/local_setup.bash
+[67.104s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/local_setup.sh
+[67.125s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/local_setup.zsh
+[67.147s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/local_setup.dsv
+[67.172s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.dsv
+[67.198s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[67.225s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[67.250s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[67.271s] -- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.xml
+[67.298s] Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_base

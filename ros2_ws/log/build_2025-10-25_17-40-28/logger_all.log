@@ -1,0 +1,490 @@
+[0.388s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.388s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb155d53be0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb155d535e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb155d535e0>>, mixin_verb=('build',))
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.884s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/enma/pudusu/ros2_ws'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extensions ['cmake', 'python']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'python'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2_ign/champ' with type 'ros.ament_cmake' and name 'champ'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_base) by extension 'ros'
+[0.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2_ign/champ_base' with type 'ros.ament_cmake' and name 'champ_base'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extensions ['colcon_pkg']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_bringup) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2_ign/champ_bringup' with type 'ros.ament_cmake' and name 'champ_bringup'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extensions ['ignore', 'ignore_ament_install']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extension 'ignore'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extension 'ignore_ament_install'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extensions ['colcon_pkg']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extension 'colcon_pkg'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extensions ['colcon_meta']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extension 'colcon_meta'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extensions ['ros']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_description) by extension 'ros'
+[0.970s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2_ign/champ_description' with type 'ros.ament_cmake' and name 'champ_description'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extension 'ignore'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extension 'ignore_ament_install'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extensions ['colcon_pkg']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extension 'colcon_pkg'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extensions ['colcon_meta']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extension 'colcon_meta'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_gazebo) by extension 'ros'
+[0.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2_ign/champ_gazebo' with type 'ros.ament_cmake' and name 'champ_gazebo'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extensions ['colcon_pkg']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extension 'colcon_pkg'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extensions ['colcon_meta']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extension 'colcon_meta'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extensions ['ros']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2_ign/champ_msgs) by extension 'ros'
+[0.977s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2_ign/champ_msgs' with type 'ros.ament_cmake' and name 'champ_msgs'
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.046s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 468 installed packages in /opt/ros/humble
+[1.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_cache' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_first' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_force_configure' from command line to 'False'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'ament_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_cmake_args' from command line to 'None'
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.231s] DEBUG:colcon.colcon_core.verb:Building package 'champ' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/enma/pudusu/ros2_ws/build/champ', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/enma/pudusu/ros2_ws/install/champ', 'merge_install': False, 'path': '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ', 'symlink_install': True, 'test_result_base': None}
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_args' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_target' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.233s] DEBUG:colcon.colcon_core.verb:Building package 'champ_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/enma/pudusu/ros2_ws/build/champ_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/enma/pudusu/ros2_ws/install/champ_description', 'merge_install': False, 'path': '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_description', 'symlink_install': True, 'test_result_base': None}
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.234s] DEBUG:colcon.colcon_core.verb:Building package 'champ_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/enma/pudusu/ros2_ws/build/champ_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/enma/pudusu/ros2_ws/install/champ_gazebo', 'merge_install': False, 'path': '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_args' from command line to 'None'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target' from command line to 'None'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.235s] DEBUG:colcon.colcon_core.verb:Building package 'champ_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/enma/pudusu/ros2_ws/build/champ_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/enma/pudusu/ros2_ws/install/champ_msgs', 'merge_install': False, 'path': '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_target' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.237s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.237s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.237s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.237s] DEBUG:colcon.colcon_core.verb:Building package 'champ_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/enma/pudusu/ros2_ws/build/champ_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/enma/pudusu/ros2_ws/install/champ_base', 'merge_install': False, 'path': '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base', 'symlink_install': True, 'test_result_base': None}
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_args' from command line to 'None'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_target' from command line to 'None'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.238s] DEBUG:colcon.colcon_core.verb:Building package 'champ_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/enma/pudusu/ros2_ws/build/champ_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/enma/pudusu/ros2_ws/install/champ_bringup', 'merge_install': False, 'path': '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.238s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ' with build type 'ament_cmake'
+[1.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ'
+[1.248s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_msgs' with build type 'ament_cmake'
+[1.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_msgs'
+[1.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_description' with build type 'ament_cmake'
+[1.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_description'
+[1.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_gazebo' with build type 'ament_cmake'
+[1.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_gazebo'
+[1.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_msgs
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_description
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_gazebo
+[3.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_description
+[3.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_description -- -j12 -l12
+[3.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_description -- -j12 -l12
+[3.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_description
+[5.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ
+[5.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ -- -j12 -l12
+[5.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ -- -j12 -l12
+[5.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ
+[5.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_description)
+[5.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_description
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description' for CMake module files
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description' for CMake config files
+[5.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_description', 'cmake_prefix_path')
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/hook/cmake_prefix_path.ps1'
+[5.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/hook/cmake_prefix_path.dsv'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/hook/cmake_prefix_path.sh'
+[5.815s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/bin'
+[5.815s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/lib/pkgconfig/champ_description.pc'
+[5.816s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/lib/python3.10/site-packages'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/bin'
+[5.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.ps1'
+[5.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.dsv'
+[5.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.sh'
+[5.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.bash'
+[5.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.zsh'
+[5.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_description/share/colcon-core/packages/champ_description)
+[5.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_description)
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description' for CMake module files
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description' for CMake config files
+[5.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_description', 'cmake_prefix_path')
+[5.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/hook/cmake_prefix_path.ps1'
+[5.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/hook/cmake_prefix_path.dsv'
+[5.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/hook/cmake_prefix_path.sh'
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/bin'
+[5.838s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/lib/pkgconfig/champ_description.pc'
+[5.839s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/lib/python3.10/site-packages'
+[5.839s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_description/bin'
+[5.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.ps1'
+[5.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.dsv'
+[5.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.sh'
+[5.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.bash'
+[5.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.zsh'
+[5.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_description/share/colcon-core/packages/champ_description)
+[5.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_gazebo
+[5.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_gazebo -- -j12 -l12
+[6.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ' for CMake module files
+[6.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ' for CMake config files
+[6.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[6.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[6.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[6.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[6.426s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/bin'
+[6.426s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/lib/pkgconfig/champ.pc'
+[6.427s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/lib/python3.10/site-packages'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/bin'
+[6.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.ps1'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.dsv'
+[6.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.sh'
+[6.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.bash'
+[6.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.zsh'
+[6.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ/share/colcon-core/packages/champ)
+[6.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ' for CMake module files
+[6.445s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ' for CMake config files
+[6.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[6.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[6.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[6.454s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/bin'
+[6.454s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/lib/pkgconfig/champ.pc'
+[6.455s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/lib/python3.10/site-packages'
+[6.456s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ/bin'
+[6.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.ps1'
+[6.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.dsv'
+[6.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.sh'
+[6.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.bash'
+[6.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ/share/champ/package.zsh'
+[6.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ/share/colcon-core/packages/champ)
+[7.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_msgs
+[7.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_msgs -- -j12 -l12
+[22.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_msgs -- -j12 -l12
+[22.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_msgs
+[27.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[27.777s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs' for CMake module files
+[27.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_msgs
+[27.781s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs' for CMake config files
+[27.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[27.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[27.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[27.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[27.790s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/lib'
+[27.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[27.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[27.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[27.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[27.796s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/bin'
+[27.796s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[27.796s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/lib/python3.10/site-packages'
+[27.797s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/bin'
+[27.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.ps1'
+[27.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.dsv'
+[27.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.sh'
+[27.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.bash'
+[27.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.zsh'
+[27.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[27.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[27.806s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs' for CMake module files
+[27.808s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs' for CMake config files
+[27.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[27.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[27.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[27.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[27.812s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/lib'
+[27.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[27.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[27.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[27.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[27.819s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/bin'
+[27.819s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[27.820s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/lib/python3.10/site-packages'
+[27.821s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_msgs/bin'
+[27.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.ps1'
+[27.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.dsv'
+[27.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.sh'
+[27.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.bash'
+[27.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_msgs/share/champ_msgs/package.zsh'
+[27.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[27.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base' with build type 'ament_cmake'
+[27.830s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base'
+[27.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_base
+[32.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_base
+[32.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_base -- -j12 -l12
+[35.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_gazebo -- -j12 -l12
+[35.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_gazebo
+[38.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_gazebo)
+[38.734s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo' for CMake module files
+[38.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_gazebo
+[38.738s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo' for CMake config files
+[38.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'cmake_prefix_path')
+[38.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.ps1'
+[38.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.dsv'
+[38.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.sh'
+[38.747s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/lib'
+[38.748s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/bin'
+[38.748s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/pkgconfig/champ_gazebo.pc'
+[38.750s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/python3.10/site-packages'
+[38.751s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/bin'
+[38.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.ps1'
+[38.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.dsv'
+[38.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.sh'
+[38.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.bash'
+[38.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.zsh'
+[38.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/colcon-core/packages/champ_gazebo)
+[38.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_gazebo)
+[38.763s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo' for CMake module files
+[38.764s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo' for CMake config files
+[38.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'cmake_prefix_path')
+[38.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.ps1'
+[38.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.dsv'
+[38.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.sh'
+[38.768s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/lib'
+[38.768s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/bin'
+[38.768s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/pkgconfig/champ_gazebo.pc'
+[38.769s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/lib/python3.10/site-packages'
+[38.769s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_gazebo/bin'
+[38.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.ps1'
+[38.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.dsv'
+[38.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.sh'
+[38.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.bash'
+[38.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/champ_gazebo/package.zsh'
+[38.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_gazebo/share/colcon-core/packages/champ_gazebo)
+[94.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_base -- -j12 -l12
+[94.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_base': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_base
+[95.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_base)
+[95.130s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base' for CMake module files
+[95.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_base
+[95.134s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base' for CMake config files
+[95.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'cmake_prefix_path')
+[95.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.ps1'
+[95.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.dsv'
+[95.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.sh'
+[95.142s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/lib'
+[95.142s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/bin'
+[95.142s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/lib/pkgconfig/champ_base.pc'
+[95.143s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/lib/python3.10/site-packages'
+[95.143s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/bin'
+[95.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.ps1'
+[95.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.dsv'
+[95.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.sh'
+[95.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.bash'
+[95.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.zsh'
+[95.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_base/share/colcon-core/packages/champ_base)
+[95.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_base)
+[95.152s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base' for CMake module files
+[95.153s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base' for CMake config files
+[95.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'cmake_prefix_path')
+[95.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.ps1'
+[95.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.dsv'
+[95.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/hook/cmake_prefix_path.sh'
+[95.157s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/lib'
+[95.157s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/bin'
+[95.157s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/lib/pkgconfig/champ_base.pc'
+[95.158s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/lib/python3.10/site-packages'
+[95.159s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_base/bin'
+[95.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.ps1'
+[95.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.dsv'
+[95.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.sh'
+[95.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.bash'
+[95.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_base/share/champ_base/package.zsh'
+[95.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_base/share/colcon-core/packages/champ_base)
+[95.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup' with build type 'ament_cmake'
+[95.168s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup'
+[95.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[95.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[95.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_bringup
+[98.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/enma/pudusu/ros2_ws/install/champ_bringup
+[98.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_bringup -- -j12 -l12
+[98.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/enma/pudusu/ros2_ws/build/champ_bringup -- -j12 -l12
+[98.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/enma/pudusu/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_bringup
+[99.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_bringup)
+[99.836s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup' for CMake module files
+[99.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/enma/pudusu/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/enma/pudusu/ros2_ws/install/champ_base:/home/enma/pudusu/ros2_ws/install/champ_msgs:/home/enma/pudusu/ros2_ws/install/champ_description:/home/enma/pudusu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/enma/pudusu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/enma/pudusu/ros2_ws/build/champ_bringup
+[99.840s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup' for CMake config files
+[99.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_bringup', 'cmake_prefix_path')
+[99.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.ps1'
+[99.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.dsv'
+[99.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.sh'
+[99.846s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/lib'
+[99.847s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/bin'
+[99.847s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/lib/pkgconfig/champ_bringup.pc'
+[99.848s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/lib/python3.10/site-packages'
+[99.849s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/bin'
+[99.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.ps1'
+[99.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.dsv'
+[99.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.sh'
+[99.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.bash'
+[99.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.zsh'
+[99.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_bringup/share/colcon-core/packages/champ_bringup)
+[99.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_bringup)
+[99.860s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup' for CMake module files
+[99.862s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup' for CMake config files
+[99.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_bringup', 'cmake_prefix_path')
+[99.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.ps1'
+[99.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.dsv'
+[99.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.sh'
+[99.868s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/lib'
+[99.868s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/bin'
+[99.868s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/lib/pkgconfig/champ_bringup.pc'
+[99.869s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/lib/python3.10/site-packages'
+[99.869s] Level 1:colcon.colcon_core.environment:checking '/home/enma/pudusu/ros2_ws/install/champ_bringup/bin'
+[99.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.ps1'
+[99.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.dsv'
+[99.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.sh'
+[99.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.bash'
+[99.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/enma/pudusu/ros2_ws/install/champ_bringup/share/champ_bringup/package.zsh'
+[99.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/enma/pudusu/ros2_ws/install/champ_bringup/share/colcon-core/packages/champ_bringup)
+[99.880s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[99.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[99.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[99.883s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[99.910s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[99.910s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[99.911s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[99.950s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[99.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/enma/pudusu/ros2_ws/install/local_setup.ps1'
+[99.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/enma/pudusu/ros2_ws/install/_local_setup_util_ps1.py'
+[99.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/enma/pudusu/ros2_ws/install/setup.ps1'
+[99.967s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/enma/pudusu/ros2_ws/install/local_setup.sh'
+[99.970s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/enma/pudusu/ros2_ws/install/_local_setup_util_sh.py'
+[99.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/enma/pudusu/ros2_ws/install/setup.sh'
+[99.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/enma/pudusu/ros2_ws/install/local_setup.bash'
+[99.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/enma/pudusu/ros2_ws/install/setup.bash'
+[99.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/enma/pudusu/ros2_ws/install/local_setup.zsh'
+[99.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/enma/pudusu/ros2_ws/install/setup.zsh'

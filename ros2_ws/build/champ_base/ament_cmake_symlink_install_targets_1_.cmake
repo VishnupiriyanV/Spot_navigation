@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/enma/pudusu/ros2_ws/build/champ_base/quadruped_controller" "/home/enma/pudusu/ros2_ws/build/champ_base/message_relay" "/home/enma/pudusu/ros2_ws/build/champ_base/state_estimation" "TARGETS" "quadruped_controller" "message_relay" "state_estimation" "RUNTIME_DESTINATION" "lib/champ_base")

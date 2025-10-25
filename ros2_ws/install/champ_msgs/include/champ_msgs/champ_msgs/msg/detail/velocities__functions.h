@@ -1,0 +1,1 @@
+/home/enma/pudusu/ros2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/velocities__functions.h

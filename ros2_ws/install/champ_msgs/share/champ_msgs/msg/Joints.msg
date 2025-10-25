@@ -1,0 +1,1 @@
+/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_msgs/msg/Joints.msg

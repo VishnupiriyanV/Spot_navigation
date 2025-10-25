@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/enma/pudusu/ros2_ws/build/champ_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_base.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_foot.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_hip_l.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_hip_r.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_shank_l.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_shank_r.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_thigh_l.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/anymal_thigh_r.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/base_uv_texture.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/anymal/carbon_uv_texture.jpg
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/champ/base.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/champ/hip.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/champ/lower_leg.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/champ/upper_leg.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/military_sack/materials/textures/texture.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/military_sack/model.mtl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/military_sack/model.obj
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/military_sack/texture.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/body.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/body_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_left_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_left_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_left_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_left_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_left_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_left_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_right_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_right_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_right_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_right_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_right_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/front_right_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_left_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_left_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_left_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_left_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_left_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_left_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_right_hip.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_right_hip_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_right_lower_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_right_lower_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_right_upper_leg.dae
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/rear_right_upper_leg_collision.stl
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/meshes/spot/spot_mat.png
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/anymal/anymal.ros2_control.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/anymal/anymal.sensors.gazebo.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/anymal/anymal.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/anymal/anymal_macro.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/champ/champ.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/champ/leg.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/champ/properties.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/military/anymal_military.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/spot/camera.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/spot/constants.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/spot/spot.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/spot/spot_leg.urdf.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/urdf/spot/utils.xacro
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/ament_index/resource_index/package_run_dependencies/champ_description
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/ament_index/resource_index/parent_prefix_path/champ_description
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/environment/path.sh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/environment/path.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/local_setup.bash
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/local_setup.sh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/local_setup.zsh
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/local_setup.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.dsv
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/ament_index/resource_index/packages/champ_description
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/cmake/champ_descriptionConfig.cmake
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/cmake/champ_descriptionConfig-version.cmake
+-- Symlinking: /home/enma/pudusu/ros2_ws/install/champ_description/share/champ_description/package.xml

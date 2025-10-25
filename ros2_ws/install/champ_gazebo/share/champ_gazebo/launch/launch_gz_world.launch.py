@@ -1,0 +1,1 @@
+/home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_gazebo/launch/launch_gz_world.launch.py
