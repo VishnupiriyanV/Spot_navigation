@@ -19,9 +19,23 @@ sudo apt install ros-humble-joint-state-publisher ros-humble-robot-state-publish
 sudo apt install ros-humble-controller-manager ros-humble-joint-trajectory-controller
 ```
 
+### Clone Repository
+```bash
+# Create workspace
+mkdir -p ~/spot_navigation_ws/src
+cd ~/spot_navigation_ws/src
+
+# Clone Spot ROS 2 repository
+git clone https://github.com/chvmp/champ.git
+git clone https://github.com/chvmp/champ_setup_assistant.git
+
+# Clone this navigation package
+git clone <your-repository-url>
+```
+
 ### Build Workspace
 ```bash
-cd /home/enma/pudusu/ros2_ws
+cd ~/spot_navigation_ws
 source /opt/ros/humble/setup.bash
 colcon build
 source install/setup.bash
@@ -29,14 +43,15 @@ source install/setup.bash
 
 ## Setup
 
-### Environment
+### Environment Configuration
 ```bash
-# Source ROS 2
-source /opt/ros/humble/setup.bash
-source /home/enma/pudusu/ros2_ws/install/setup.bash
+# Add to ~/.bashrc for permanent setup
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo "source ~/spot_navigation_ws/install/setup.bash" >> ~/.bashrc
+echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc
 
-# Set domain ID (optional)
-export ROS_DOMAIN_ID=0
+# Reload terminal or source manually
+source ~/.bashrc
 ```
 
 ### Verify Installation
@@ -44,80 +59,147 @@ export ROS_DOMAIN_ID=0
 # Check packages
 ros2 pkg list | grep champ
 
-# Test launch file
+# Test launch file syntax
 ros2 launch champ_bringup spot_bringup.launch.py --show-args
 ```
 
 ## Usage
 
-### Option 1: Complete A→B→C→D Navigation
+### Quick Start
 ```bash
-/home/enma/pudusu/run_spot_gazebo_abcd.sh
+# Make scripts executable
+chmod +x ~/spot_navigation_ws/scripts/*.sh
+
+# Run complete A→B→C→D navigation
+~/spot_navigation_ws/scripts/run_spot_gazebo_abcd.sh
 ```
 
-### Option 2: Manual Control
+### Manual Control
 ```bash
 # Terminal 1: Launch simulation
-/home/enma/pudusu/run_spot_gazebo_simple.sh
+ros2 launch champ_bringup spot_bringup.launch.py use_simulator:=true
 
-# Terminal 2: Run navigation
-source /home/enma/pudusu/ros2_ws/install/setup.bash
-python3 /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup/scripts/visible_walking_abcd.py
+# Terminal 2: Run navigation (in new terminal)
+source ~/spot_navigation_ws/install/setup.bash
+ros2 run spot_navigation waypoint_navigator
 ```
 
-### Option 3: Individual Scripts
+### Custom Waypoints
 ```bash
-source /home/enma/pudusu/ros2_ws/install/setup.bash
+# Edit waypoint coordinates in:
+# ~/spot_navigation_ws/src/spot_navigation/scripts/waypoint_navigator.py
 
-# Simple movement test
-python3 /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup/scripts/simple_working_movement.py
+# Rebuild after changes
+cd ~/spot_navigation_ws
+colcon build --packages-select spot_navigation
+```
+
+## Configuration
+
+### Modify Waypoints
+Edit [src/spot_navigation/scripts/waypoint_navigator.py](cci:7://file:///home/enma/puthu_folder/spot_navigation_ws/src/spot_navigation/scripts/waypoint_navigator.py:0:0-0:0):
+```python
+self.waypoints = [
+    {'x': 1.0, 'y': -1.0, 'z': 0.0, 'name': 'A'},  # Start point
+    {'x': 3.0, 'y': -1.0, 'z': 0.0, 'name': 'B'},  # Forward
+    {'x': 3.0, 'y': 1.0, 'z': 0.0, 'name': 'C'},   # Left
+    {'x': 1.0, 'y': 1.0, 'z': 0.0, 'name': 'D'}    # Back
+]
+```
+
+### Adjust Movement Parameters
+Edit movement scripts to change:
+- Walking speed: Modify `duration` parameters
+- Joint angles: Adjust position arrays
+- Gait cycles: Change `cycles` parameter
+
+## Scripts
+
+### Available Launch Scripts
+```bash
+# Complete navigation with visualization
+./scripts/run_spot_gazebo_abcd.sh
+
+# Basic simulation only
+./scripts/run_spot_gazebo_simple.sh
+
+# Navigation with RViz
+./scripts/run_spot_with_rviz.sh
+```
+
+### Individual Movement Scripts
+```bash
+# Basic movement demonstration
+ros2 run spot_navigation simple_movement
+
+# Visible A→B→C→D walking
+ros2 run spot_navigation visible_walking_abcd
 
 # Timed waypoint navigation
-python3 /home/enma/pudusu/ros2_ws/src/spot_ros2_ign/champ_bringup/scripts/waypoint_navigation_timed.py
+ros2 run spot_navigation waypoint_navigation_timed
 ```
-
-## Controls
-
-- **Start**: Run any launch script
-- **Stop**: Press Ctrl+C
-- **Monitor**: Check Gazebo window for robot movement
-- **Debug**: Check terminal output for status
 
 ## Troubleshooting
 
-### Common Issues
+### Build Issues
 ```bash
-# If packages not found
-source /home/enma/pudusu/ros2_ws/install/setup.bash
+# Install missing dependencies
+rosdep install --from-paths src --ignore-src -r -y
 
-# If Gazebo doesn't start
+# Clean build
+rm -rf build install log
+colcon build
+```
+
+### Runtime Issues
+```bash
+# Kill existing processes
 pkill -f "gz sim"
 pkill -f "ros2 launch"
 
-# Rebuild if needed
-cd /home/enma/pudusu/ros2_ws
-colcon build --packages-select champ_bringup spot_navigation
+# Check ROS environment
+printenv | grep ROS
+
+# Verify packages
+ros2 pkg list | grep -E "(champ|spot)"
 ```
 
-### Expected Behavior
-- Gazebo opens with empty room environment
-- Spot robot spawns at origin
-- Robot performs visible walking motions
-- Console shows navigation progress
+### Common Problems
 
-## Files Structure
-```
-/home/enma/pudusu/
-├── run_spot_gazebo_abcd.sh     # Complete launch
-├── run_spot_gazebo_simple.sh   # Basic launch
-├── ros2_ws/
-│   └── src/spot_ros2_ign/
-│       └── champ_bringup/
-│           └── scripts/
-│               ├── visible_walking_abcd.py
-│               ├── simple_working_movement.py
-│               └── waypoint_navigation_timed.py
-└── empty_room.sdf              # Simulation world
+**Gazebo doesn't start**: Check graphics drivers and try headless mode
+```bash
+export LIBGL_ALWAYS_SOFTWARE=1
 ```
 
-Robot executes A→B→C→D rectangular path with quadruped gait patterns and large joint movements for clear visualization.
+**Robot doesn't move**: Verify controllers are loaded
+```bash
+ros2 control list_controllers
+```
+
+**Package not found**: Source workspace
+```bash
+source ~/spot_navigation_ws/install/setup.bash
+```
+
+## Customization
+
+### Create New Movement Patterns
+1. Copy existing script: `cp src/spot_navigation/scripts/waypoint_navigator.py src/spot_navigation/scripts/my_pattern.py`
+2. Modify waypoints and movement logic
+3. Rebuild: `colcon build --packages-select spot_navigation`
+4. Run: `ros2 run spot_navigation my_pattern`
+
+### Add New Worlds
+1. Place SDF file in: `src/spot_navigation/worlds/`
+2. Update launch file world parameter
+3. Rebuild and test
+
+### Integration with Nav2
+For full navigation stack integration:
+```bash
+# Install Nav2
+sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
+
+# Use navigation launch file
+ros2 launch spot_navigation spot_with_nav2.launch.py
+```
